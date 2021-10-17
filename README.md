@@ -8,3 +8,4 @@ Videos of the robot in action:
 * Final contest video - https://youtu.be/WZ-JJvT5fn8
 * Demo video - https://youtu.be/nfTzekgK6BQ
 
+The repositories used for this project have been updated as needed for ROS2 Galactic. (The project PDF mentioned compatibilty with an April 2021 Rolling release.)
