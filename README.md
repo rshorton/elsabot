@@ -8,9 +8,21 @@ Videos of the robot in action:
 * Final contest video - https://youtu.be/WZ-JJvT5fn8
 * Demo video - https://youtu.be/nfTzekgK6BQ
 
-The repositories used for this project have been updated as needed for ROS2 Galactic. (The project PDF mentioned compatibilty with an April 2021 Rolling release.)
+The repositories used for this project have been updated as needed for ROS2 Humble.
 
+<hr>
 Updates to project since the contest report was written:
+
 1. The two RPI4 computers have been replace with one Celeron-based J4125 computer. 
 2. A small robot arm has been added to the front of Elsabot.  See the xArm_Lewansoul_ROS repo for the source.
 3. The original RC servos used for the pan-tilt base of the head were replaced with bus servos for better control.
+4. Additional robot bases are also now used.  These include:
+   * 4 wheel-drive skid steer base
+      * base uC controller: https://github.com/rshorton/linorobot2_hardware  (master branch)
+      * bring-up: https://github.com/rshorton/elsabot_4wd
+   * PowerWheels Jeep, see https://github.com/rshorton/elsabot_jeep and
+      * base uC controller: https://github.com/rshorton/linorobot2_hardware (jeep branch)
+      * bring-up: https://github.com/rshorton/elsabot_jeep
+
+ 
+   
