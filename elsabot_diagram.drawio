@@ -1,0 +1,326 @@
+<mxfile host="app.diagrams.net" modified="2023-08-26T03:42:17.857Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="RHaLFkVjsviiOBz2BGIi" version="21.6.9" type="device">
+  <diagram id="zvqsTAjQcJVYoRH6CtaS" name="Page-1">
+    <mxGraphModel dx="1712" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1700" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UEs_WULymts0MUOz-TkY-59" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="880" y="410" width="180" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-60" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;speech_output_server package&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="880" y="410" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="880" y="272.5" width="180" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="520" y="50" width="260" height="455" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="50" y="280" width="390" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-6" value="" style="swimlane;startSize=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="470" y="580" width="660" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="h64mEn92o3aMpxo8EYRI-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="UEs_WULymts0MUOz-TkY-6">
+          <mxGeometry width="660" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="y2REsjKtgh5L2pQ0WPQc-7" value="&lt;b&gt;Nav2 nodes&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="490" y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Base Control and Navigation&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="430" y="-1" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y2REsjKtgh5L2pQ0WPQc-6" value="&lt;b&gt;MicroRosAgent Node&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="60" y="230" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-5" value="&lt;b&gt;Joint State Publisher Node&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="10" y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-14" value="&lt;b&gt;Robot State Publisher Node&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="10" y="110" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-15" value="&lt;b&gt;Joy Linux Node&lt;br&gt;Teleop Twist Joy Node&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="170" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-16" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Rplidar Node&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="170" y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-18" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Cmd Vel Mux Node&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="170" y="110" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-20" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;IMU Madgwick Filter Node&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="330" y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-19" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Robot Localization&lt;br&gt;EKF Nodes&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="330" y="110" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-21" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;NMEA NavSat Driver Node&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="330" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-22" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Robot Localization&amp;nbsp; NavSat Xform Node&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="490" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-38" value="&lt;b&gt;Create2 Driver Node&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="250" y="230" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-39" value="&lt;b&gt;Gazebo:&amp;nbsp;&lt;/b&gt;ros_gz_sim&lt;br&gt;and ros_gz_bridge" style="rounded=1;whiteSpace=wrap;html=1;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="440" y="230" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-40" value="&lt;b&gt;OR&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="210" y="235" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-41" value="&lt;b&gt;OR&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="UEs_WULymts0MUOz-TkY-6" vertex="1">
+          <mxGeometry x="400" y="235" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-45" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;fillColor=#007FFF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="UEs_WULymts0MUOz-TkY-6" edge="1">
+          <mxGeometry x="0.2857" y="46" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="509.71000000000004" y="310" as="sourcePoint" />
+            <mxPoint x="509.71000000000004" y="270" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h64mEn92o3aMpxo8EYRI-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;elsabot_4wd / elsabot_jeep package&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;provides launch scipts to launch these nodes&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="UEs_WULymts0MUOz-TkY-6">
+          <mxGeometry y="-1" width="190" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-12" value="Detections" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#007FFF;labelBackgroundColor=none;" parent="1" source="y2REsjKtgh5L2pQ0WPQc-2" target="pmQnep-QoRwhn8bDTYPA-1" edge="1">
+          <mxGeometry x="-0.0353" y="34" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2REsjKtgh5L2pQ0WPQc-2" value="&lt;b&gt;Vision Node&lt;br&gt;&lt;/b&gt;Configures and processes output from OAK-D" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="417.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y2REsjKtgh5L2pQ0WPQc-3" value="&lt;b&gt;Behavior Tree (ROS) Node&lt;br&gt;&lt;/b&gt;Executes the specified&lt;br&gt;&amp;nbsp;behavior tree." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="255" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y2REsjKtgh5L2pQ0WPQc-8" value="&lt;b&gt;ROS Web Video Server node&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="55" y="580" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y2REsjKtgh5L2pQ0WPQc-9" value="&lt;b&gt;Speech Output Node&lt;br&gt;&lt;/b&gt;Speech Synth and output" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="437.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y2REsjKtgh5L2pQ0WPQc-11" value="&lt;b&gt;ROS2 Web Bridge Node&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="235" y="660" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y2REsjKtgh5L2pQ0WPQc-12" value="HTML Page for robot monitoring and setup" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="55" y="790" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y2REsjKtgh5L2pQ0WPQc-13" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" target="y2REsjKtgh5L2pQ0WPQc-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="790" as="sourcePoint" />
+            <mxPoint x="325" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2REsjKtgh5L2pQ0WPQc-14" value="Node topic &lt;br&gt;subscription data via&amp;nbsp;&lt;br&gt;Websocket&lt;br&gt;connection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="y2REsjKtgh5L2pQ0WPQc-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.5667" y="-2" relative="1" as="geometry">
+            <mxPoint x="92" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2REsjKtgh5L2pQ0WPQc-16" value="&lt;b&gt;Speech Input Node&lt;br&gt;&lt;/b&gt;Wake word detection&lt;br&gt;Speech Recognition" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="305" width="160" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qsa4lLvE8yvBR065OGzd-12" value="MS Azure&lt;br&gt;Speech Services" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="340" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qsa4lLvE8yvBR065OGzd-13" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="y2REsjKtgh5L2pQ0WPQc-16" target="qsa4lLvE8yvBR065OGzd-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="412.5" as="sourcePoint" />
+            <mxPoint x="820" y="362.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qsa4lLvE8yvBR065OGzd-15" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="y2REsjKtgh5L2pQ0WPQc-9" target="qsa4lLvE8yvBR065OGzd-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="412.5" as="sourcePoint" />
+            <mxPoint x="820" y="362.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#007FFF;" parent="1" source="qsa4lLvE8yvBR065OGzd-19" target="y2REsjKtgh5L2pQ0WPQc-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qsa4lLvE8yvBR065OGzd-19" value="&lt;b&gt;Behavior Trees&lt;/b&gt; (XML):&lt;br&gt;Defines functionality of the robot&amp;nbsp; by using capabilities provided&lt;br&gt;by the other ROS nodes as exposed by the BT Action Nodes" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="555" y="90" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qsa4lLvE8yvBR065OGzd-21" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;exitX=0.503;exitY=0.876;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="qsa4lLvE8yvBR065OGzd-19" target="y2REsjKtgh5L2pQ0WPQc-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="225" as="sourcePoint" />
+            <mxPoint x="680" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-1" value="&lt;b&gt;Tracker Node&lt;/b&gt;&lt;br&gt;Controls servos for tracking detected person.&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="315" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-2" value="&lt;b&gt;Viewer Node&lt;/b&gt;&lt;br&gt;Displays camera video on display panel" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="315" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pmQnep-QoRwhn8bDTYPA-3" target="y2REsjKtgh5L2pQ0WPQc-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-3" value="&lt;b&gt;Behavior Tree Action Nodes&lt;/b&gt;&lt;br&gt;These Action Nodes expose the functionality of the other ROS nodes to the behavior tree engine" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="405" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-5" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#000000;endSize=6;" parent="1" source="pmQnep-QoRwhn8bDTYPA-3" target="y2REsjKtgh5L2pQ0WPQc-3" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="650" y="385" as="sourcePoint" />
+            <mxPoint x="750" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-8" value="Video" style="endArrow=classic;html=1;strokeWidth=3;fillColor=#007FFF;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#DAE8FC;" parent="1" source="y2REsjKtgh5L2pQ0WPQc-2" target="pmQnep-QoRwhn8bDTYPA-2" edge="1">
+          <mxGeometry x="-0.4711" y="14" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="395" as="sourcePoint" />
+            <mxPoint x="700" y="345" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-9" value="" style="endArrow=classic;html=1;strokeWidth=3;fillColor=#007FFF;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="y2REsjKtgh5L2pQ0WPQc-2" target="y2REsjKtgh5L2pQ0WPQc-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="487.5" as="sourcePoint" />
+            <mxPoint x="360" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-10" value="Video" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="pmQnep-QoRwhn8bDTYPA-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.1981" y="3" relative="1" as="geometry">
+            <mxPoint x="12" y="-45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-11" value="Detections" style="endArrow=classic;html=1;strokeWidth=3;fillColor=#007FFF;exitX=1;exitY=0.25;exitDx=0;exitDy=0;labelBackgroundColor=none;" parent="1" source="y2REsjKtgh5L2pQ0WPQc-2" edge="1">
+          <mxGeometry x="-0.1211" y="11" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="395" as="sourcePoint" />
+            <mxPoint x="550" y="433" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-13" value="Control" style="endArrow=classic;html=1;strokeWidth=3;fillColor=#007FFF;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;" parent="1" source="pmQnep-QoRwhn8bDTYPA-3" target="pmQnep-QoRwhn8bDTYPA-1" edge="1">
+          <mxGeometry x="-0.0202" y="17" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="415" as="sourcePoint" />
+            <mxPoint x="720" y="365" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-14" value="Control" style="endArrow=classic;html=1;strokeWidth=3;fillColor=#007FFF;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;" parent="1" target="y2REsjKtgh5L2pQ0WPQc-2" edge="1">
+          <mxGeometry x="-0.0007" y="7" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="463" as="sourcePoint" />
+            <mxPoint x="460" y="335" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-15" value="" style="endArrow=classic;html=1;strokeWidth=3;fillColor=#007FFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="y2REsjKtgh5L2pQ0WPQc-8" target="y2REsjKtgh5L2pQ0WPQc-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="145" y="625" as="sourcePoint" />
+            <mxPoint x="145" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-16" value="Video via&lt;br&gt;&amp;nbsp;HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pmQnep-QoRwhn8bDTYPA-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.1981" y="3" relative="1" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-17" value="Speech&lt;br&gt;to output" style="endArrow=classic;html=1;strokeWidth=3;fillColor=#007FFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;labelBackgroundColor=none;" parent="1" source="pmQnep-QoRwhn8bDTYPA-3" target="y2REsjKtgh5L2pQ0WPQc-9" edge="1">
+          <mxGeometry x="0.0217" y="24" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="415" as="sourcePoint" />
+            <mxPoint x="720" y="365" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-18" value="Speech,&lt;br&gt;wake word&lt;br&gt;&amp;nbsp;event" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;fillColor=#007FFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;labelBackgroundColor=none;" parent="1" source="pmQnep-QoRwhn8bDTYPA-3" target="y2REsjKtgh5L2pQ0WPQc-16" edge="1">
+          <mxGeometry x="0.2572" y="32" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="405" as="sourcePoint" />
+            <mxPoint x="720" y="355" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmQnep-QoRwhn8bDTYPA-20" value="Robot base&lt;br&gt;&amp;nbsp;control/status&lt;br&gt;and&lt;br&gt;Nav control" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;fillColor=#007FFF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;exitX=0.272;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="UEs_WULymts0MUOz-TkY-6" target="pmQnep-QoRwhn8bDTYPA-3" edge="1">
+          <mxGeometry x="-0.0993" y="-40" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="560" as="sourcePoint" />
+            <mxPoint x="720" y="355" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-23" value="&lt;b&gt;Teensy uC Base Controller&amp;nbsp;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="890" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-24" value="&lt;b&gt;iRobot Create Base&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="890" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-42" value="&lt;b&gt;Gazebo Fortress&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="910" y="890" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-43" value="serial" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;fillColor=#007FFF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;" parent="1" source="UEs_WULymts0MUOz-TkY-23" target="y2REsjKtgh5L2pQ0WPQc-6" edge="1">
+          <mxGeometry x="-0.5" y="-20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="589" as="sourcePoint" />
+            <mxPoint x="660" y="500" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-44" value="serial" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;fillColor=#007FFF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="UEs_WULymts0MUOz-TkY-24" target="UEs_WULymts0MUOz-TkY-38" edge="1">
+          <mxGeometry x="-0.5" y="-20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="900" as="sourcePoint" />
+            <mxPoint x="610" y="860" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-46" value="ROS Topics&lt;br&gt;To/From various&lt;br&gt;Nodes" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="310" y="530" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-47" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;fillColor=#007FFF;exitX=1;exitY=0;exitDx=0;exitDy=15;entryX=0.25;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;exitPerimeter=0;" parent="1" source="UEs_WULymts0MUOz-TkY-46" target="pmQnep-QoRwhn8bDTYPA-3" edge="1">
+          <mxGeometry x="-0.2713" y="30" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659" y="590" as="sourcePoint" />
+            <mxPoint x="660" y="500" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-50" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;rounded=0;strokeColor=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="280" as="sourcePoint" />
+            <mxPoint x="350" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="280" />
+              <mxPoint x="70" y="120" />
+              <mxPoint x="350" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-52" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;robot_head package&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="50" y="280" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-55" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;elsabot_bt package&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="520" y="50" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UEs_WULymts0MUOz-TkY-57" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;speech_input_server package&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="880" y="272.5" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h64mEn92o3aMpxo8EYRI-5" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;linorobot2_hardware repo&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="530" y="930" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h64mEn92o3aMpxo8EYRI-6" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;fillColor=#007FFF;exitX=0.468;exitY=0.008;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="y2REsjKtgh5L2pQ0WPQc-11" target="UEs_WULymts0MUOz-TkY-46">
+          <mxGeometry x="-0.2713" y="30" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="605" as="sourcePoint" />
+            <mxPoint x="605" y="560" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h64mEn92o3aMpxo8EYRI-8" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Nodes&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;robot_head package&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;vision - configures and processes output from the OAK-D including video capture and NN object tracking/detection output.&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;tracker -&amp;nbsp;receives detection results from the vision node and controls servos for tracking a person in view by changing the camera (robot head) orientation.&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;face - controls the smile and antenna LEDs.&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;viewer - displays video from the camera on the Elsabot display panel.&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;elsabot_bt package&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;bt node - uses the BehaviorTree.CPP framework to execute custom behavior trees and actions that implement the ElsaBot functionality. These trees use custom behavior tree action nodes developed for this project which expose functionality provided by other ROS nodes.&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;elsabot_4wd / elsabot_jeep packages&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Linorobot2 derived packages that includes launch scripts and configurations for bringing-up the various nodes required to manage the core functionality of the robot including sensors, teleop input, and navigation.&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;speech_output_server package&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;speech_output - node that uses the Microsoft Cognitive Speech Services to convert text to speech and then output using the USB speaker.&amp;nbsp;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;speech_input_server package&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;speech_input - node that reads audio samples from the microphone and uses Microsoft Cognitive Speech Services to perform speech detection and wake word detection.&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;ROS web video server package&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Node for streaming camera topics over HTTP for display on a web browser.&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;ROS2 web bridge&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Node for bridging topics to web apps.&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;Teensy uC base controller (for elsabot bases)&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Controller/firmware that implements the motor controller, IMU driver, ultrasonics sensor driver, and battery monitor driver.&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;Create2 driver&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;create_robot - bring-up scripts for Elsabot when using the iRobot Create base&amp;nbsp; (this support is currently stale as of 8/2023)&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;Gazebo&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Launch scripts for running Elsabot using Gazebo simulation&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Launching&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;elsabot_4wd / elsabot_jeep - handles the base-level nodes&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;elsabot_bt - handles the high-level nodes including speech related and robot head&lt;/blockquote&gt;&lt;br&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="991" width="1170" height="599" as="geometry" />
+        </mxCell>
+        <mxCell id="h64mEn92o3aMpxo8EYRI-9" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;&quot;&gt;Elsabot Robot Overview&lt;/span&gt;&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;rev 1, 8/2023&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="50" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h64mEn92o3aMpxo8EYRI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h64mEn92o3aMpxo8EYRI-9" target="h64mEn92o3aMpxo8EYRI-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h64mEn92o3aMpxo8EYRI-11" value="copyright 2023 All Rights Reserved Scott Horton" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1640" width="270" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
