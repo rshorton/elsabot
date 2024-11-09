@@ -2,6 +2,16 @@
 
 clone_repo () {
   REPO=$1
+  DIR=$2
+
+  if [ -z $DIR ]; then
+    DIR=src
+  fi
+
+  if [ ! -e $DIR ]; then
+    mkdir $DIR
+  fi
+
 
   NAME=${REPO%.*}
   NAME=${NAME#*/}
@@ -9,14 +19,17 @@ clone_repo () {
   echo "NAME= $NAME"
   echo "Repo = $REPO"
 
-  if [ ! -e src/$NAME ]; then
-    git clone $REPO src
+  if [ ! -e $DIR/$NAME ]; then
+    pushd $DIR
+    git clone $REPO
+    popd
   else
     echo "$NAME already cloned"
   fi
+
 }
 
-clone_repo git@github.com:rshorton/elsabot_docker.git
+clone_repo git@github.com:rshorton/elsabot_docker.git ./
 
 # Base bring-up packages
 clone_repo git@github.com:rshorton/elsabot_4wd.git
@@ -31,7 +44,7 @@ clone_repo git@github.com:rshorton/robot_ui_interfaces.git
 clone_repo git@github.com:rshorton/object_detection_msgs.git
 
 clone_repo git@github.com:rshorton/elsabot_bt.git
-clone_repo git@github.com:rshorton/elsabot_game_data.git
+clone_repo git@github.com:rshorton/elsabot_game_data.git ./
 
 clone_repo git@github.com:rshorton/speech_input_server.git
 clone_repo git@github.com:rshorton/speech_output_server.git
