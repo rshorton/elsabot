@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ ! -e src ]; then
+  mkdir src
+fi
+
 clone_repo () {
   REPO=$1
   DIR=$2
@@ -8,18 +12,11 @@ clone_repo () {
     DIR=src
   fi
 
-  if [ ! -e $DIR ]; then
-    mkdir $DIR
-  fi
-
-
   NAME=${REPO%.*}
   NAME=${NAME#*/}
 
-  echo "NAME= $NAME"
-  echo "Repo = $REPO"
-
   if [ ! -e $DIR/$NAME ]; then
+    echo "Cloning $NAME"
     pushd $DIR
     git clone $REPO
     popd
@@ -36,7 +33,9 @@ clone_repo git@github.com:rshorton/elsabot_4wd.git
 clone_repo git@github.com:rshorton/create_robot.git
 clone_repo git@github.com:rshorton/elsabot_jeep.git
 
+clone_repo git@github.com:rshorton/libcreate.git
 clone_repo git@github.com:rshorton/cmd_vel_mux.git
+clone_repo git@github.com:rshorton/cmd_vel_timeout.git
 
 clone_repo git@github.com:rshorton/robot_head.git
 clone_repo git@github.com:rshorton/robot_head_interfaces.git
@@ -57,3 +56,6 @@ clone_repo git@github.com:rshorton/kml_publisher.git
 clone_repo git@github.com:rshorton/nav2_fixed_path_planner.git
 clone_repo git@github.com:rshorton/system_shutdown.git
 clone_repo git@github.com:rshorton/ebot_car.git
+
+# And micro_ros_setup
+git clone -b jazzy https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup
