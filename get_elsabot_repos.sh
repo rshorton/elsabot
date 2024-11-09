@@ -36,6 +36,7 @@ clone_repo git@github.com:rshorton/elsabot_jeep.git
 clone_repo git@github.com:rshorton/libcreate.git
 clone_repo git@github.com:rshorton/cmd_vel_mux.git
 clone_repo git@github.com:rshorton/cmd_vel_timeout.git
+clone_repo git@github.com:rshorton/elsabot_jeep_sim.git
 
 clone_repo git@github.com:rshorton/robot_head.git
 clone_repo git@github.com:rshorton/robot_head_interfaces.git
