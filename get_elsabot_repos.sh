@@ -56,6 +56,7 @@ clone_repo rshorton/robot_head.git
 clone_repo rshorton/robot_head_interfaces.git
 clone_repo rshorton/robot_ui_interfaces.git
 clone_repo rshorton/object_detection_msgs.git
+clone_repo rshorton/elsabot_custom_messages.git
 
 clone_repo rshorton/elsabot_bt.git
 clone_repo rshorton/elsabot_game_data.git ./
