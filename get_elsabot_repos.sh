@@ -43,6 +43,7 @@ clone_repo () {
 clone_repo rshorton/elsabot_docker.git ./
 
 # Base bring-up packages
+clone_repo rshorton/elsabot_robot.git
 clone_repo rshorton/elsabot_4wd.git
 clone_repo rshorton/create_robot.git
 clone_repo rshorton/elsabot_jeep.git
