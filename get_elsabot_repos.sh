@@ -74,5 +74,7 @@ clone_repo rshorton/nav2_fixed_path_planner.git
 clone_repo rshorton/system_shutdown.git
 clone_repo rshorton/ebot_car.git
 
+clone_repo rshorton/ina226_power_monitor.git
+
 # And micro_ros_setup
 git clone -b jazzy https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup
