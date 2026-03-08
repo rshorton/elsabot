@@ -14,35 +14,36 @@ fi
 
 clone_repo () {
   REPO=$1
-  DIR=$2
-
-  if [ -z $DIR ]; then
-    DIR=src
-  fi
+  BRANCH=$2
 
   NAME=${REPO%.*}
   NAME=${NAME#*/}
 
-  if [ ! -e $DIR/$NAME ]; then
+  if [ ! -e $NAME ]; then
     echo "Cloning $NAME"
-    pushd $DIR
 
-    if [ $READONLY ]; then
-      git clone http://github.com/$REPO
-    else
-      git clone git@github.com:$REPO
+    BRANCH_ARG=""
+    if [ ! -z $BRANCH ]; then
+      BRANCH_ARG="-b ${BRANCH}"
     fi
 
-    popd
+    if [ $READONLY ]; then
+      git clone ${BRANCH_ARG} http://github.com/$REPO
+    else
+      git clone ${BRANCH_ARG} git@github.com:$REPO
+    fi
+
   else
     echo "$NAME already cloned"
   fi
 
 }
 
-clone_repo rshorton/elsabot_docker.git ./
+clone_repo rshorton/elsabot_docker.git
 
 # Base bring-up packages
+pushd src
+
 clone_repo rshorton/elsabot_robot.git
 clone_repo rshorton/elsabot_4wd.git
 clone_repo rshorton/create_robot.git
@@ -59,8 +60,7 @@ clone_repo rshorton/robot_ui_interfaces.git
 clone_repo rshorton/object_detection_msgs.git
 clone_repo rshorton/elsabot_custom_messages.git
 
-clone_repo rshorton/elsabot_bt.git
-clone_repo rshorton/elsabot_game_data.git ./
+clone_repo rshorton/elsabot_bt.git bt_v3
 
 clone_repo rshorton/speech_input_server.git
 clone_repo rshorton/speech_output_server.git
@@ -75,6 +75,10 @@ clone_repo rshorton/system_shutdown.git
 clone_repo rshorton/ebot_car.git
 
 clone_repo rshorton/ina226_power_monitor.git
+
+popd
+
+clone_repo rshorton/elsabot_game_data.git ./
 
 # And micro_ros_setup
 git clone -b jazzy https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup
