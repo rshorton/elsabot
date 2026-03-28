@@ -62,6 +62,12 @@ clone_repo rshorton/elsabot_custom_messages.git
 
 clone_repo rshorton/elsabot_bt.git bt_v3
 
+# For on device STT/TTS (on Jetson)
+clone_repo rshorton/elsabot_audio_output.git
+clone_repo rshorton/elsabot_audio_output_interfaces.git
+clone_repo rshorton/elsabot_speech_input.git
+
+# For MS Speech STT/TTS (on Seeed Odyssey)
 clone_repo rshorton/speech_input_server.git
 clone_repo rshorton/speech_output_server.git
 clone_repo rshorton/speech_action_interfaces.git
