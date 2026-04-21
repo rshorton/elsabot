@@ -60,7 +60,7 @@ clone_repo rshorton/robot_ui_interfaces.git
 clone_repo rshorton/object_detection_msgs.git
 clone_repo rshorton/elsabot_custom_messages.git
 
-clone_repo rshorton/elsabot_bt.git bt_v3
+clone_repo rshorton/elsabot_bt.git
 
 # For on device STT/TTS (on Jetson)
 clone_repo rshorton/elsabot_audio_output.git
