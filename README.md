@@ -5,7 +5,7 @@ The ElsaBot project started as the Team GrandPlay entry for the OpenCV AI 2021 c
 **In general, this project and all repos on this site have been created for the purpose of pure 'maker' enjoyment.  Don't expect this code to work out of the box for your project, and don't expect this code to be clean or 'perfect'. It is a continual work in progress driven by what currently interests and amuses the developer 😀.**
 
 The ROS 2 framework is used for this project.  Many of the repositories on this site contain the ROS 2 packages that make up the custom code written for this project.  Please see the 2021 contest project report contained in this repository to better understand the general architecture and implementation. The appendix of that document describes the source code repositories used.  Note however that quite a bit has changed since that report was written.  Some of the differences are described below.  Also see a more recent diagram that shows an overview of all ROS nodes used:
-* elsabot_diagram_rev1.pdf
+* [Architecture Diagram](elsabot_diagram_rev2.pdf)
 
 Videos of the robot in action:
 * Final contest video - https://youtu.be/WZ-JJvT5fn8
