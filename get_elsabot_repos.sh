@@ -28,9 +28,9 @@ clone_repo () {
     fi
 
     if [ $READONLY ]; then
-      git clone ${BRANCH_ARG} http://github.com/$REPO
+      git clone --recurse-submodules ${BRANCH_ARG} http://github.com/$REPO
     else
-      git clone ${BRANCH_ARG} git@github.com:$REPO
+      git clone --recurse-submodules ${BRANCH_ARG} git@github.com:$REPO
     fi
 
   else
