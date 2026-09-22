@@ -27,7 +27,9 @@ clone_repo () {
       BRANCH_ARG="-b ${BRANCH}"
     fi
 
-    if [ $READONLY ]; then
+  
+
+    if [ $READONLY == true ]; then
       git clone --recurse-submodules ${BRANCH_ARG} http://github.com/$REPO
     else
       git clone --recurse-submodules ${BRANCH_ARG} git@github.com:$REPO
@@ -65,6 +67,7 @@ clone_repo rshorton/elsabot_bt.git
 # For on device STT/TTS (on Jetson)
 clone_repo rshorton/elsabot_audio_output.git
 clone_repo rshorton/elsabot_audio_output_interfaces.git
+
 clone_repo rshorton/elsabot_speech_input.git
 
 # For MS Speech STT/TTS (on Seeed Odyssey)
@@ -81,6 +84,9 @@ clone_repo rshorton/system_shutdown.git
 clone_repo rshorton/ebot_car.git
 
 clone_repo rshorton/ina226_power_monitor.git
+
+clone_repo rshorton/dart_gun_interfaces.git
+clone_repo rshorton/dart_gun_controller.git
 
 popd
 
