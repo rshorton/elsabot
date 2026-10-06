@@ -47,14 +47,14 @@ clone_repo rshorton/elsabot_docker.git
 pushd src
 
 clone_repo rshorton/elsabot_robot.git
-clone_repo rshorton/elsabot_4wd.git
-clone_repo rshorton/create_robot.git
-clone_repo rshorton/elsabot_jeep.git
+#clone_repo rshorton/elsabot_4wd.git
+#clone_repo rshorton/create_robot.git
+#clone_repo rshorton/elsabot_jeep.git
 
-clone_repo rshorton/libcreate.git
+#clone_repo rshorton/libcreate.git
 clone_repo rshorton/cmd_vel_mux.git
 clone_repo rshorton/cmd_vel_timeout.git
-clone_repo rshorton/elsabot_jeep_sim.git
+#clone_repo rshorton/elsabot_jeep_sim.git
 
 clone_repo rshorton/robot_head.git
 clone_repo rshorton/robot_head_interfaces.git
@@ -71,18 +71,19 @@ clone_repo rshorton/elsabot_audio_output_interfaces.git
 clone_repo rshorton/elsabot_speech_input.git
 
 # For MS Speech STT/TTS (on Seeed Odyssey)
-clone_repo rshorton/speech_input_server.git
-clone_repo rshorton/speech_output_server.git
+#clone_repo rshorton/speech_input_server.git
+#clone_repo rshorton/speech_output_server.git
 clone_repo rshorton/speech_action_interfaces.git
 
-clone_repo rshorton/xArm_Lewansoul_ROS.git
-clone_repo rshorton/xarm_xarm_ikfast_plugin.git
+#clone_repo rshorton/xArm_Lewansoul_ROS.git
+#clone_repo rshorton/xarm_xarm_ikfast_plugin.git
 
 clone_repo rshorton/kml_publisher.git
-clone_repo rshorton/nav2_fixed_path_planner.git
+#clone_repo rshorton/nav2_fixed_path_planner.git
 clone_repo rshorton/system_shutdown.git
-clone_repo rshorton/ebot_car.git
+#clone_repo rshorton/ebot_car.git
 
+cline_repo rshorton/rplidar_ros.git ros2
 clone_repo rshorton/ina226_power_monitor.git
 
 clone_repo rshorton/dart_gun_interfaces.git
@@ -90,7 +91,9 @@ clone_repo rshorton/dart_gun_controller.git
 
 popd
 
-clone_repo rshorton/elsabot_game_data.git ./
+clone_repo rshorton/elsabot_game_data.git
 
 # And micro_ros_setup
-git clone -b jazzy https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup
+#git clone -b lyrical https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup
+# Use this for now util updated
+git clone -b lyrical https://github.com/PaulBouchier/micro_ros_setup.git src/micro_ros_setup

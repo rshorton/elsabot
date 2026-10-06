@@ -12,7 +12,7 @@ Videos of the robot in action:
 * Demo video - https://youtu.be/nfTzekgK6BQ
 * YouTube channel with more demos - https://www.youtube.com/channel/UCBhDDfn9TskLmcuDGkDC7ow
 
-The repositories used for this project have been updated as needed for ROS2 Jazzy.
+The repositories used for this project have been updated as needed for ROS2 Lyrical.
 
 <hr>
 Some of the updates to this project since the contest report was written:
@@ -40,6 +40,6 @@ Some of the updates to this project since the contest report was written:
 
  <hr>
 
- A Docker build environment (as of Jazzy) is used to build/run the Elsabot projects.  See the **elsabot_docker** project https://github.com/rshorton/elsabot_docker for build/setup steps.  (If you are new to ROS2 and not using Docker (or Podman) to create containers that can help manage version dependencies and avoid host OS conflicts with ROS2 versions, you are encouraged to research the benefits since it can avoid many headaches.)
+ A Docker build environment (as of Lyrical) is used to build/run the Elsabot projects.  See the **elsabot_docker** project https://github.com/rshorton/elsabot_docker for build/setup steps.  (If you are new to ROS2 and not using Docker (or Podman) to create containers that can help manage version dependencies and avoid host OS conflicts with ROS2 versions, you are encouraged to research the benefits since it can avoid many headaches.)
  
    
